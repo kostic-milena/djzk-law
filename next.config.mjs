@@ -14,9 +14,6 @@ import { unifiedConditional } from 'unified-conditional'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
-  basePath: "/djzk-law",
-  output: "export",
-  distDir: "dist"
 }
 
 function remarkMDXLayout(source, metaName) {
