@@ -21,6 +21,10 @@ import { Logo, Logomark } from '@/components/Logo'
 import { Offices } from '@/components/Offices'
 import { SocialMedia } from '@/components/SocialMedia'
 
+import imageLogoDjzk from '@/images/djzk_logo.png'
+import Image from 'next/image'
+
+
 const RootLayoutContext = createContext<{
   logoHovered: boolean
   setLogoHovered: React.Dispatch<React.SetStateAction<boolean>>
@@ -69,7 +73,7 @@ function Header({
           onMouseEnter={() => setLogoHovered(true)}
           onMouseLeave={() => setLogoHovered(false)}
         >
-          <Logomark
+          {/* <Logomark
             className="h-8 sm:hidden"
             invert={invert}
             filled={logoHovered}
@@ -78,6 +82,12 @@ function Header({
             className="hidden h-8 sm:block"
             invert={invert}
             filled={logoHovered}
+          /> */}
+          <Image
+            src={imageLogoDjzk}
+            width={100}
+            height={100}
+            alt="Logo"
           />
         </Link>
         <div className="flex items-center gap-x-8">
@@ -143,11 +153,11 @@ function Navigation() {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/work">Our Work</NavigationItem>
-        <NavigationItem href="/about">About Us</NavigationItem>
+        <NavigationItem href="/work">Oblasti rada</NavigationItem>
+        <NavigationItem href="/about">Advokati</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/process">Our Process</NavigationItem>
+        <NavigationItem href="/process">Proces rada</NavigationItem>
         <NavigationItem href="/blog">Blog</NavigationItem>
       </NavigationRow>
     </nav>
