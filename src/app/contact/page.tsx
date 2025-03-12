@@ -86,7 +86,7 @@ function ContactForm() {
           </div> */}
         </div>
         <Button type="submit" className="mt-10">
-          Kontaktirajte nas
+          Zakaži
         </Button>
       </form>
     </FadeIn>
