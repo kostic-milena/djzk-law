@@ -56,10 +56,10 @@ function ContactForm() {
     <FadeIn className="lg:order-last">
       <form>
         <h2 className="font-display text-base font-semibold text-neutral-950">
-          Work inquiries
+          Zakažite konsultacije
         </h2>
         <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
-          <TextInput label="Name" name="name" autoComplete="name" />
+          <TextInput label="Ime i prezime" name="name" autoComplete="name" />
           <TextInput
             label="Email"
             type="email"
@@ -67,13 +67,13 @@ function ContactForm() {
             autoComplete="email"
           />
           <TextInput
-            label="Company"
+            label="Kompanija (opciono)"
             name="company"
             autoComplete="organization"
           />
-          <TextInput label="Phone" type="tel" name="phone" autoComplete="tel" />
-          <TextInput label="Message" name="message" />
-          <div className="border border-neutral-300 px-6 py-8 first:rounded-t-2xl last:rounded-b-2xl">
+          <TextInput label="Telefon" type="tel" name="phone" autoComplete="tel" />
+          <TextInput label="Poruka" name="message" />
+          {/* <div className="border border-neutral-300 px-6 py-8 first:rounded-t-2xl last:rounded-b-2xl">
             <fieldset>
               <legend className="text-base/6 text-neutral-500">Budget</legend>
               <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2">
@@ -83,10 +83,10 @@ function ContactForm() {
                 <RadioInput label="More than $150K" name="budget" value="150" />
               </div>
             </fieldset>
-          </div>
+          </div> */}
         </div>
         <Button type="submit" className="mt-10">
-          Let’s work together
+          Kontaktirajte nas
         </Button>
       </form>
     </FadeIn>
@@ -100,13 +100,12 @@ function ContactDetails() {
         Our offices
       </h2> */}
       <p className="mt-6 text-base text-neutral-600">
-        Prefer doing things in person? We don’t but we have to list our
-        addresses here for legal reasons.
+      Ako vam je potrebna hitna pravna pomoć ili zastupanje, molimo Vas da nas odmah kontaktirate putem telefona kako bismo što pre reagovali.
       </p>
 
       <Offices className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2" />
 
-      <Border className="mt-16 pt-16">
+      {/* <Border className="mt-16 pt-16">
         <h2 className="font-display text-base font-semibold text-neutral-950">
           Email us
         </h2>
@@ -128,11 +127,11 @@ function ContactDetails() {
             </div>
           ))}
         </dl>
-      </Border>
+      </Border> */}
 
       <Border className="mt-16 pt-16">
         <h2 className="font-display text-base font-semibold text-neutral-950">
-          Follow us
+          Pratite nas
         </h2>
         <SocialMedia className="mt-6" />
       </Border>
@@ -142,14 +141,14 @@ function ContactDetails() {
 
 export const metadata: Metadata = {
   title: 'Kontakt',
-  description: 'Let’s work together. We can’t wait to hear from you.',
+  description: 'Rešavanje pravnih pitanja počinje prvim korakom — kontaktirajte nas.',
 }
 
 export default function Contact() {
   return (
     <>
-      <PageIntro eyebrow="Contact us" title="Let’s work together">
-        <p>We can’t wait to hear from you.</p>
+      <PageIntro eyebrow="Kontaktirajte nas" title="Poverenje počinje kontaktom">
+        <p>Pravna podrška počinje ovde</p>
       </PageIntro>
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">

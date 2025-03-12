@@ -6,7 +6,7 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: 'Advokat',
+    template: 'ĐZK Advokati',
     default: 'ĐZK Advokati',
   },
 }

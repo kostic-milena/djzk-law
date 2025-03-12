@@ -185,11 +185,11 @@ export default async function Home() {
             Zaštita vaših prava, bez kompromisa.
           </p>
           <Button
-            href={"#"}
+            href={"/contact"}
             aria-label={`#`}
             className="mt-8"
           >
-            Zakaži konsultacije
+            Zakažite konsultacije
           </Button>
         </FadeIn>
       </Container>
