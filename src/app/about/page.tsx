@@ -28,7 +28,7 @@ function Culture() {
   return (
     <div className="mt-24 rounded-4xl bg-teal-950 py-24 sm:mt-32 lg:mt-40 lg:py-32">
       <SectionIntro
-        eyebrow="Temelji našeg rada i uspeha"
+        eyebrow="Temelj našeg rada i uspeha"
         title="Principi na kojima gradimo uspeh"
         invert
       >
@@ -55,7 +55,7 @@ function Culture() {
 
 const team = [
   {
-    title: 'Partneri',
+    title: 'Advokati',
     people: [    
       {
         name: 'Nenad Đoković',
@@ -208,13 +208,13 @@ export default async function About() {
               <strong>Specijalizovani stručnjaci:</strong> Naš tim čine advokati sa bogatim iskustvom u različitim pravnim granama, a posebno u oblasti radnog prava, porodičnog prava i komercijalnih sporova.
             </li>
             <li>
-            <strong>Personalizovani pristup:</strong>Svakom klijentu pristupamo individualno i prilagođavamo strategiju rešenja u skladu sa njegovim potrebama i ciljevima.
+            <strong>Personalizovani pristup:</strong> Svakom klijentu pristupamo individualno i prilagođavamo strategiju rešenja u skladu sa njegovim potrebama i ciljevima.
             </li>
             <li>
-              <strong>Personalizovani pristup:</strong>Visoka efikasnost i transparentnost: Naša kancelarija je poznata po brzoj i efikasnoj pravnoj pomoći, uz potpuno transparentnu komunikaciju o svim fazama postupka.
+              <strong>Personalizovani pristup:</strong> Visoka efikasnost i transparentnost: Naša kancelarija je poznata po brzoj i efikasnoj pravnoj pomoći, uz potpuno transparentnu komunikaciju o svim fazama postupka.
             </li>
             <li>
-              <strong>Zadovoljstvo klijenata:</strong>Naš cilj je ostvariti najbolje rezultate za naše klijente, pružajući im pravnu sigurnost i zaštitu njihovih prava u svim fazama pravnog procesa.
+              <strong>Zadovoljstvo klijenata:</strong> Naš cilj je ostvariti najbolje rezultate za naše klijente, pružajući im pravnu sigurnost i zaštitu njihovih prava u svim fazama pravnog procesa.
             </li>
           </ul>
 
