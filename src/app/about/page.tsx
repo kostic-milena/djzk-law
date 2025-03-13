@@ -61,16 +61,19 @@ const team = [
         name: 'Nenad Đoković',
         role: 'Advokat',
         image: { src: imageDriesVincent },
+        experience: 'Sa preko 15 godina iskustva u oblasti građanskog i imovinskog prava, pravna praksa obuhvata rešavanje vlasničkih i imovinskih sporova, pravno savetovanje pri kupoprodaji nekretnina i zaštitu imovinskih prava fizičkih i pravnih lica. Stručno vođenje klijenata kroz sve faze pravnih procesa obezbeđuje sigurnost i transparentnost u donošenju ključnih odluka.',
       },
       {
         name: 'Miloš Kostić',
         role: 'Advokat',
         image: { src: imageLeslieAlexander },
+        experience: 'Sa preko 12 godina iskustva u oblasti privrednog prava, ekspertiza obuhvata savetovanje kompanija u vezi sa ugovornim odnosima, osnivanjem i restrukturiranjem preduzeća, kao i rešavanjem privrednih sporova. Dugogodišnja saradnja sa domaćim i međunarodnim klijentima omogućila je duboko razumevanje poslovnih potreba i efikasno pravno vođenje kroz kompleksne situacije.',
       },
       {
         name: 'Igor Zahirović',
         role: 'Advokat',
         image: { src: imageMichaelFoster },
+        experience: 'Specijalizacija u oblasti radnog prava sa više od 10 godina iskustva uključuje zastupanje u radnim sporovima, izradu ugovora o radu, regulisanje prava i obaveza poslodavaca i zaposlenih, kao i prevenciju pravnih rizika u radnim odnosima. Posvećenost detaljnoj analizi i strateškom rešavanju problema garantuje pouzdanu pravnu podršku u dinamičnom poslovnom okruženju.',
       },
     ],
   },
@@ -160,6 +163,7 @@ function Team() {
                             <p className="mt-2 text-sm text-white">
                               {person.role}
                             </p>
+                           
                           </div>
                         </div>
                       </FadeIn>
@@ -186,7 +190,7 @@ export default async function About() {
 
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="ĐZK Advokati" title="Stručnost, poverenje i pravna sigurnost">
         <p>
           Naša filozofija je zasnovana na bliskoj saradnji sa klijentima, jer samo tako možemo pružiti pravu pravnu podršku koja je u skladu sa njihovim potrebama
         </p>
@@ -197,20 +201,23 @@ export default async function About() {
           <p>
             Naša misija je da pružimo vrhunske pravne usluge i zaštitimo prava naših klijenata kroz temeljnu analizu svakog slučaja i prilagođavanje strategije njihovim specifičnim potrebama. Uvereni smo da je uspeh naših klijenata ključ našeg uspeha, zbog čega se trudimo da izgradimo dugoročne, partnerske odnose zasnovane na poverenju i transparentnosti.
           </p>
+
+          <p className='text-2xl font-semibold text-neutral-950 mt-10'>Zašto izabrati ĐZK Advokate?</p>
           <ul>
             <li>
-              Specijalizovani stručnjaci: Naš tim čine advokati sa bogatim iskustvom u različitim pravnim granama, a posebno u oblasti radnog prava, porodičnog prava i komercijalnih sporova.
+              <strong>Specijalizovani stručnjaci:</strong> Naš tim čine advokati sa bogatim iskustvom u različitim pravnim granama, a posebno u oblasti radnog prava, porodičnog prava i komercijalnih sporova.
             </li>
             <li>
-              Personalizovani pristup: Svakom klijentu pristupamo individualno i prilagođavamo strategiju rešenja u skladu sa njegovim potrebama i ciljevima.
+            <strong>Personalizovani pristup:</strong>Svakom klijentu pristupamo individualno i prilagođavamo strategiju rešenja u skladu sa njegovim potrebama i ciljevima.
             </li>
             <li>
-              Visoka efikasnost i transparentnost: Naša kancelarija je poznata po brzoj i efikasnoj pravnoj pomoći, uz potpuno transparentnu komunikaciju o svim fazama postupka.
+              <strong>Personalizovani pristup:</strong>Visoka efikasnost i transparentnost: Naša kancelarija je poznata po brzoj i efikasnoj pravnoj pomoći, uz potpuno transparentnu komunikaciju o svim fazama postupka.
             </li>
             <li>
-              Zadovoljstvo klijenata: Naš cilj je ostvariti najbolje rezultate za naše klijente, pružajući im pravnu sigurnost i zaštitu njihovih prava u svim fazama pravnog procesa.
+              <strong>Zadovoljstvo klijenata:</strong>Naš cilj je ostvariti najbolje rezultate za naše klijente, pružajući im pravnu sigurnost i zaštitu njihovih prava u svim fazama pravnog procesa.
             </li>
           </ul>
+
           <p>
             Naša misija je da pružimo vrhunske pravne usluge i zaštitimo prava naših klijenata kroz temeljnu analizu svakog slučaja i prilagođavanje strategije njihovim specifičnim potrebama. Uvereni smo da je uspeh naših klijenata ključ našeg uspeha, zbog čega se trudimo da izgradimo dugoročne, partnerske odnose zasnovane na poverenju i transparentnosti.
           </p>
