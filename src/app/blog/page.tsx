@@ -12,9 +12,9 @@ import { formatDate } from '@/lib/formatDate'
 import { loadArticles } from '@/lib/mdx'
 
 export const metadata: Metadata = {
-  title: 'Blog',
+  title: 'ĐZK Blog',
   description:
-    'Stay up-to-date with the latest industry news as our marketing teams finds new ways to re-purpose old CSS tricks articles.',
+    ' Kroz naš blog delimo pravne uvide, savete i novosti — jer verujemo da je znanje najbolja zaštita',
 }
 
 export default async function Blog() {
@@ -22,10 +22,9 @@ export default async function Blog() {
 
   return (
     <>
-      <PageIntro eyebrow="Blog" title="The latest articles and news">
+      <PageIntro eyebrow="ĐZK Blog" title="Aktuelnosti i pravni saveti">
         <p>
-          Stay up-to-date with the latest industry news as our marketing teams
-          finds new ways to re-purpose old CSS tricks articles.
+        Otkrijte najnovije pravne savete, analize i vesti koje vam pomažu da ostanete informisani i sigurni.
         </p>
       </PageIntro>
 
@@ -47,7 +46,7 @@ export default async function Blog() {
                             {formatDate(article.date)}
                           </time>
                         </dd>
-                        <dt className="sr-only">Author</dt>
+                        <dt className="sr-only">Autor</dt>
                         <dd className="mt-6 flex gap-x-4">
                           <div className="flex-none overflow-hidden rounded-xl bg-neutral-100">
                             <Image

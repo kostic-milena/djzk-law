@@ -28,27 +28,24 @@ function Culture() {
   return (
     <div className="mt-24 rounded-4xl bg-teal-950 py-24 sm:mt-32 lg:mt-40 lg:py-32">
       <SectionIntro
-        eyebrow="Our culture"
-        title="Balance your passion with your passion for life."
+        eyebrow="Temelji našeg rada i uspeha"
+        title="Principi na kojima gradimo uspeh"
         invert
       >
         <p>
-          We are a group of like-minded people who share the same core values.
+        Naš rad se oslanja na jasne principe koji nas vode u svakodnevnom pružanju vrhunskih pravnih usluga i izgradnji dugoročnih odnosa sa klijentima.
         </p>
       </SectionIntro>
       <Container className="mt-16">
         <GridList>
-          <GridListItem title="Loyalty" invert>
-            Our team has been with us since the beginning because none of them
-            are allowed to have LinkedIn profiles.
+          <GridListItem title="Stručnost i kontinuirano usavršavanje" invert>
+          Pravo je dinamična oblast, a mi verujemo da samo kroz stalno usavršavanje i praćenje promena u zakonodavstvu možemo pružiti najkvalitetnije savete i rešenja našim klijentima. Svaki slučaj analiziramo temeljno, sa ciljem da ponudimo najbolju pravnu strategiju.
           </GridListItem>
-          <GridListItem title="Trust" invert>
-            We don’t care when our team works just as long as they are working
-            every waking second.
+          <GridListItem title="Poverenje i transparentnost" invert>
+          Gradimo snažne odnose sa klijentima zasnovane na poverenju. Verujemo da je otvorena komunikacija ključ uspeha — jasno informišemo klijente o svim aspektima njihovog slučaja i koracima koji slede. Naša reč je naša obaveza.
           </GridListItem>
-          <GridListItem title="Compassion" invert>
-            You never know what someone is going through at home and we make
-            sure to never find out.
+          <GridListItem title="Posvećenost rezultatima" invert>
+          Uspeh naših klijenata je i naš uspeh. Sa punom pažnjom i odgovornošću pristupamo svakom slučaju, usmereni ka postizanju konkretnih, merljivih rezultata. Naša misija je da zaštitimo prava i interese klijenata na najefikasniji način.
           </GridListItem>
         </GridList>
       </Container>
@@ -58,75 +55,75 @@ function Culture() {
 
 const team = [
   {
-    title: 'Leadership',
-    people: [
+    title: 'Partneri',
+    people: [    
       {
-        name: 'Leslie Alexander',
-        role: 'Co-Founder / CEO',
+        name: 'Nenad Đoković',
+        role: 'Advokat',
+        image: { src: imageDriesVincent },
+      },
+      {
+        name: 'Miloš Kostić',
+        role: 'Advokat',
         image: { src: imageLeslieAlexander },
       },
       {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
+        name: 'Igor Zahirović',
+        role: 'Advokat',
         image: { src: imageMichaelFoster },
       },
-      {
-        name: 'Dries Vincent',
-        role: 'Partner & Business Relations',
-        image: { src: imageDriesVincent },
-      },
     ],
   },
-  {
-    title: 'Team',
-    people: [
-      {
-        name: 'Chelsea Hagon',
-        role: 'Senior Developer',
-        image: { src: imageChelseaHagon },
-      },
-      {
-        name: 'Emma Dorsey',
-        role: 'Senior Designer',
-        image: { src: imageEmmaDorsey },
-      },
-      {
-        name: 'Leonard Krasner',
-        role: 'VP, User Experience',
-        image: { src: imageLeonardKrasner },
-      },
-      {
-        name: 'Blake Reid',
-        role: 'Junior Copywriter',
-        image: { src: imageBlakeReid },
-      },
-      {
-        name: 'Kathryn Murphy',
-        role: 'VP, Human Resources',
-        image: { src: imageKathrynMurphy },
-      },
-      {
-        name: 'Whitney Francis',
-        role: 'Content Specialist',
-        image: { src: imageWhitneyFrancis },
-      },
-      {
-        name: 'Jeffrey Webb',
-        role: 'Account Coordinator',
-        image: { src: imageJeffreyWebb },
-      },
-      {
-        name: 'Benjamin Russel',
-        role: 'Senior Developer',
-        image: { src: imageBenjaminRussel },
-      },
-      {
-        name: 'Angela Fisher',
-        role: 'Front-end Developer',
-        image: { src: imageAngelaFisher },
-      },
-    ],
-  },
+  // {
+  //   title: 'Tim',
+  //   people: [
+  //     {
+  //       name: 'Jasmina Mićanović',
+  //       role: 'Advokat Pripravnik',
+  //       image: { src: imageChelseaHagon },
+  //     },
+  //     // {
+  //     //   name: 'Emma Dorsey',
+  //     //   role: 'Senior Designer',
+  //     //   image: { src: imageEmmaDorsey },
+  //     // },
+  //     // {
+  //     //   name: 'Leonard Krasner',
+  //     //   role: 'VP, User Experience',
+  //     //   image: { src: imageLeonardKrasner },
+  //     // },
+  //     // {
+  //     //   name: 'Blake Reid',
+  //     //   role: 'Junior Copywriter',
+  //     //   image: { src: imageBlakeReid },
+  //     // },
+  //     // {
+  //     //   name: 'Kathryn Murphy',
+  //     //   role: 'VP, Human Resources',
+  //     //   image: { src: imageKathrynMurphy },
+  //     // },
+  //     // {
+  //     //   name: 'Whitney Francis',
+  //     //   role: 'Content Specialist',
+  //     //   image: { src: imageWhitneyFrancis },
+  //     // },
+  //     // {
+  //     //   name: 'Jeffrey Webb',
+  //     //   role: 'Account Coordinator',
+  //     //   image: { src: imageJeffreyWebb },
+  //     // },
+  //     // {
+  //     //   name: 'Benjamin Russel',
+  //     //   role: 'Senior Developer',
+  //     //   image: { src: imageBenjaminRussel },
+  //     // },
+  //     // {
+  //     //   name: 'Angela Fisher',
+  //     //   role: 'Front-end Developer',
+  //     //   image: { src: imageAngelaFisher },
+  //     // },
+  //   ],
+  // },
 ]
 
 function Team() {
@@ -179,7 +176,7 @@ function Team() {
 }
 
 export const metadata: Metadata = {
-  title: 'About Us',
+  title: 'ĐZK ADVOKATI',
   description:
     'We believe that our strength lies in our collaborative approach, which puts our clients at the center of everything we do.',
 }
@@ -191,29 +188,46 @@ export default async function About() {
     <>
       <PageIntro eyebrow="About us" title="Our strength is collaboration">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          Naša filozofija je zasnovana na bliskoj saradnji sa klijentima, jer samo tako možemo pružiti pravu pravnu podršku koja je u skladu sa njihovim potrebama
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+            Naša kancelarija sa sedištem u Beogradu pruža visoko profesionalnu pravnu pomoć u različitim oblastima prava, sa posebnim fokusom na radno pravo, porodično pravo, komercijalne sporove i druge specijalizovane pravne usluge. Naš tim iskusnih advokata posvećen je pružanju efikasnih, pravovremenih i prilagođenih rešenja za sve vaše pravne izazove.
           </p>
           <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
+            Naša misija je da pružimo vrhunske pravne usluge i zaštitimo prava naših klijenata kroz temeljnu analizu svakog slučaja i prilagođavanje strategije njihovim specifičnim potrebama. Uvereni smo da je uspeh naših klijenata ključ našeg uspeha, zbog čega se trudimo da izgradimo dugoročne, partnerske odnose zasnovane na poverenju i transparentnosti.
+          </p>
+          <ul>
+            <li>
+              Specijalizovani stručnjaci: Naš tim čine advokati sa bogatim iskustvom u različitim pravnim granama, a posebno u oblasti radnog prava, porodičnog prava i komercijalnih sporova.
+            </li>
+            <li>
+              Personalizovani pristup: Svakom klijentu pristupamo individualno i prilagođavamo strategiju rešenja u skladu sa njegovim potrebama i ciljevima.
+            </li>
+            <li>
+              Visoka efikasnost i transparentnost: Naša kancelarija je poznata po brzoj i efikasnoj pravnoj pomoći, uz potpuno transparentnu komunikaciju o svim fazama postupka.
+            </li>
+            <li>
+              Zadovoljstvo klijenata: Naš cilj je ostvariti najbolje rezultate za naše klijente, pružajući im pravnu sigurnost i zaštitu njihovih prava u svim fazama pravnog procesa.
+            </li>
+          </ul>
+          <p>
+            Naša misija je da pružimo vrhunske pravne usluge i zaštitimo prava naših klijenata kroz temeljnu analizu svakog slučaja i prilagođavanje strategije njihovim specifičnim potrebama. Uvereni smo da je uspeh naših klijenata ključ našeg uspeha, zbog čega se trudimo da izgradimo dugoročne, partnerske odnose zasnovane na poverenju i transparentnosti.
+          </p>
+          <p>
+            Bilo da ste preduzetnik, zaposleni ili fizičko lice, ĐZK Advokati su pravi izbor za sve vaše pravne potrebe. Naša kancelarija je tu da vam pomogne da zaštitite svoja prava i donesete informisane odluke u vezi sa pravnim pitanjima koja vas pogađaju.
+          </p>
+          <p>
+            Kontaktirajte nas i saznajte kako vam možemo pomoći da ostvarite svoje ciljeve i zaštitite svoja prava kroz pravnu sigurnost i stručnu podršku.
           </p>
         </div>
       </PageIntro>
       <Container className="mt-16">
         <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
+          <StatListItem value="8" label="Godina uspešnog rada u različitim pravnim oblastima" />
+          <StatListItem value="1000+" label="Uspešno zaključenih pravnih postupaka" />
+          <StatListItem value="100+" label="Zadovoljnih klijenata, fizičkih lica i privrednih društava" />
+          <StatListItem value="100%" label="Pozitivno rešenih slučajeva u korist klijenata" />
         </StatList>
       </Container>
 
@@ -223,8 +237,8 @@ export default async function About() {
 
       <PageLinks
         className="mt-24 sm:mt-32 lg:mt-40"
-        title="From the blog"
-        intro="Our team of experienced designers and developers has just one thing on their mind; working on your ideas to draw a smile on the face of your users worldwide. From conducting Brand Sprints to UX Design."
+        title="ĐZK Blog"
+        intro="Naš blog je vaš pouzdan vodič kroz složene pravne teme. Bilo da se suočavate sa izazovima u poslovanju, radnom odnosu ili porodičnim pitanjima, ovde ćete pronaći korisne informacije i savete našeg advokatskog tima."
         pages={blogArticles}
       />
 
