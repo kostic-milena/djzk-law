@@ -73,7 +73,7 @@ const team = [
         name: 'Igor Zahirović',
         role: 'Advokat',
         image: { src: imageMichaelFoster },
-        experience: 'Sa više od 10 godina iskustva u radnom pravu, specijalizovan za zastupanje klijenata u radnim sporovima, izradu ugovora o radu, regulisanje prava i obaveza poslodavaca i zaposlenih, kao i prevenciju pravnih rizika. Poseduje iskustvo u kolektivnom pregovaranju, zaštiti prava radnika, kao i usklađivanju sa zakonodavstvom u oblasti zapošljavanja. Posvećen je detaljnoj analizi i strateškom rešavanju problema, pružajući efikasnu pravnu podršku u dinamičnom poslovnom okruženju. Diplomirao je na Pravnom fakultetu Univerziteta u Beogradu, a redovno se usavršava kroz seminare i programe u oblasti radnog prava. Takođe, pruža savete poslodavcima u vezi sa najboljim praksama u upravljanju ljudskim resursima i minimiziranju pravnih rizika.',
+        experience: 'Sa više od 15 godina iskustva u radnom pravu, specijalizovan za zastupanje klijenata u radnim sporovima, izradu ugovora o radu, regulisanje prava i obaveza poslodavaca i zaposlenih, kao i prevenciju pravnih rizika. Poseduje iskustvo u kolektivnom pregovaranju, zaštiti prava radnika, kao i usklađivanju sa zakonodavstvom u oblasti zapošljavanja. Posvećen je detaljnoj analizi i strateškom rešavanju problema, pružajući efikasnu pravnu podršku u dinamičnom poslovnom okruženju. Diplomirao je na Pravnom fakultetu Univerziteta u Beogradu, a redovno se usavršava kroz seminare i programe u oblasti radnog prava. Takođe, pruža savete poslodavcima u vezi sa najboljim praksama u upravljanju ljudskim resursima i minimiziranju pravnih rizika.',
       },
     ],
   },
