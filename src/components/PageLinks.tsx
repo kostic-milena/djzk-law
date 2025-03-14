@@ -43,7 +43,7 @@ function PageLink({ page }: { page: Page }) {
         >
           {formatDate(page.date)}
         </time> */}
-        <p className="order-first text-sm text-neutral-600">Pravne oblasti</p>
+        {/* <p className="order-first text-sm text-neutral-600">Pravne oblasti</p> */}
         <p className="mt-2.5 text-base text-neutral-600">{page.description}</p>
         <Link
           href={page.href}
