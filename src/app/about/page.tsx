@@ -186,9 +186,11 @@ function Team() {
 }
 
 export const metadata: Metadata = {
-  title: 'ĐZK ADVOKATI',
+  title: 'Advokatska kancelarija u Beogradu | Pravni savetnici i zastupanje u Beogradu',
   description:
-    'We believe that our strength lies in our collaborative approach, which puts our clients at the center of everything we do.',
+    'Advokatska kancelarija u Beogradu nudi profesionalne pravne usluge u oblastima građanskog, privrednog, radnog i imovinskog prava. Pružamo savetovanje i zastupanje za fizička i pravna lica, sa fokusom na sigurnost, efikasnost i transparentnost u pravnim procesima.',
+  keywords: 
+    'advokatska kancelarija Beograd, pravni savetnici Beograd, advokati Beograd, pravna pomoć Beograd, privredno pravo Beograd, radno pravo Beograd, imovinsko pravo Beograd, građansko pravo Beograd, pravno zastupanje Beograd, pravne usluge Beograd.'
 }
 
 export default async function About() {
