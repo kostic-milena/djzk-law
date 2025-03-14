@@ -61,19 +61,19 @@ const team = [
         name: 'Nenad Đoković',
         role: 'Advokat',
         image: { src: imageDriesVincent },
-        experience: 'Sa preko 15 godina iskustva u oblasti građanskog i imovinskog prava, pravna praksa obuhvata rešavanje vlasničkih i imovinskih sporova, pravno savetovanje pri kupoprodaji nekretnina i zaštitu imovinskih prava fizičkih i pravnih lica. Stručno vođenje klijenata kroz sve faze pravnih procesa obezbeđuje sigurnost i transparentnost u donošenju ključnih odluka.',
+        experience: 'Advokat sa više od 15 godina iskustva u oblasti građanskog i imovinskog prava, specijalizovan za rešavanje vlasničkih i imovinskih sporova, kao i pravno savetovanje u vezi sa kupoprodajom nekretnina i zaštitu imovinskih prava fizičkih i pravnih lica. Pravna praksa obuhvata izradu ugovora, zastupanje klijenata u sudskim i van-sudskim postupcima, kao i savetovanje u vezi sa pravima i obavezama u oblasti nekretnina. Stručno vodi klijente kroz sve faze pravnih procesa, pružajući im sigurnost i transparentnost u donošenju ključnih odluka. Diplomirao je na Pravnom fakultetu Univerziteta u Beogradu, a dodatno se usavršavao u oblasti prava nekretnina i rešavanja sporova. Poznat je po strateškom pristupu u rešavanju kompleksnih pravnih pitanja i posvećenosti zaštiti interesa klijenata uz visok nivo profesionalizma.',
       },
       {
         name: 'Miloš Kostić',
         role: 'Advokat',
         image: { src: imageLeslieAlexander },
-        experience: 'Sa preko 12 godina iskustva u oblasti privrednog prava, ekspertiza obuhvata savetovanje kompanija u vezi sa ugovornim odnosima, osnivanjem i restrukturiranjem preduzeća, kao i rešavanjem privrednih sporova. Dugogodišnja saradnja sa domaćim i međunarodnim klijentima omogućila je duboko razumevanje poslovnih potreba i efikasno pravno vođenje kroz kompleksne situacije.',
+        experience: 'Sa više od 15 godina iskustva u privrednom pravu, specijalizovan za savetovanje kompanija u vezi sa ugovornim odnosima, osnivanjem i restrukturiranjem preduzeća, kao i rešavanjem privrednih sporova. Ima bogato iskustvo u pregovaranju, izradi ugovora i rešavanju poslovnih izazova, sa posebnim fokusom na bankarsko pravo i analizu kreditnih pitanja. Sa Masterom prava (LL.M.) iz međunarodnog prava, stečenim na Pravnom fakultetu Univerziteta u Beogradu, poseduje duboko razumevanje domaćih i međunarodnih pravnih i finansijskih okvira. Saradnja sa domaćim i međunarodnim klijentima omogućila mu je efikasno rešavanje složenih pravnih pitanja u privredi i finansijama, dok učešće na međunarodnim konferencijama kontinuirano unapređuje njegove stručne kompetencije.',
       },
       {
         name: 'Igor Zahirović',
         role: 'Advokat',
         image: { src: imageMichaelFoster },
-        experience: 'Specijalizacija u oblasti radnog prava sa više od 10 godina iskustva uključuje zastupanje u radnim sporovima, izradu ugovora o radu, regulisanje prava i obaveza poslodavaca i zaposlenih, kao i prevenciju pravnih rizika u radnim odnosima. Posvećenost detaljnoj analizi i strateškom rešavanju problema garantuje pouzdanu pravnu podršku u dinamičnom poslovnom okruženju.',
+        experience: 'Sa više od 10 godina iskustva u radnom pravu, specijalizovan za zastupanje klijenata u radnim sporovima, izradu ugovora o radu, regulisanje prava i obaveza poslodavaca i zaposlenih, kao i prevenciju pravnih rizika. Poseduje iskustvo u kolektivnom pregovaranju, zaštiti prava radnika, kao i usklađivanju sa zakonodavstvom u oblasti zapošljavanja. Posvećen je detaljnoj analizi i strateškom rešavanju problema, pružajući efikasnu pravnu podršku u dinamičnom poslovnom okruženju. Diplomirao je na Pravnom fakultetu Univerziteta u Beogradu, a redovno se usavršava kroz seminare i programe u oblasti radnog prava. Takođe, pruža savete poslodavcima u vezi sa najboljim praksama u upravljanju ljudskim resursima i minimiziranju pravnih rizika.',
       },
     ],
   },
@@ -143,33 +143,39 @@ function Team() {
                 </h2>
               </FadeIn>
               <div className="lg:col-span-3">
-                <ul
+                <div
                   role="list"
-                  className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8"
+                  className="grid grid-cols-1"
                 >
                   {group.people.map((person) => (
-                    <li key={person.name}>
+                    <div key={person.name} className='grid grid-cols-1 xl:grid-cols-2'>
                       <FadeIn>
-                        <div className="group relative overflow-hidden rounded-3xl bg-neutral-100">
+                        <div className="overflow-hidden rounded-3xl bg-neutral-100 my-10">
                           <Image
                             alt=""
                             {...person.image}
-                            className="h-96 w-full object-cover grayscale transition duration-500 motion-safe:group-hover:scale-105"
+                            className="object-cover grayscale transition duration-500 motion-safe:group-hover:scale-105"
                           />
-                          <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black to-black/0 to-40% p-6">
-                            <p className="font-display text-base/6 font-semibold tracking-wide text-white">
-                              {person.name}
-                            </p>
-                            <p className="mt-2 text-sm text-white">
-                              {person.role}
-                            </p>
-                           
-                          </div>
+                          
                         </div>
                       </FadeIn>
-                    </li>
+                      <FadeIn>
+                        <div className="pb-12 xl:p-12">
+                              <p className="font-display text-xl font-semibold tracking-wide text-neutral-950">
+                                {person.name}
+                              </p>
+                              <p className="mt-1 text-md text-neutral-800 italic">
+                                {person.role}
+                              </p>
+                              <p className="mt-4 text-sm text-neutral-950">
+                                {person.experience}
+                              </p>
+                            
+                          </div>
+                      </FadeIn>
+                    </div>
                   ))}
-                </ul>
+                </div>
               </div>
             </div>
           </FadeInStagger>
