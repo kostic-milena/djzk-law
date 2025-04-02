@@ -74,7 +74,9 @@ function CaseStudies({
         className="mt-24 sm:mt-32 lg:mt-40 w-full"
       >
         <p>
-        Tim iskusnih advokata specijalizovan je za pružanje visokokvalitetne pravne pomoći i podrške u različitim pravnim oblastima. Sa sedištem u Beogradu, naš cilj je da svakom klijentu obezbedimo efikasna i prilagođena pravna rešenja, uz poštovanje najviših profesionalnih standarda.
+        Advokatska kancelarija Đoković – Zahirović – Kostić uvažava pojedinačne ciljeve svakog klijenta; ima  razumevanje klijenata i njihovih poslovnih ciljeva i to je jedan od osnovnih principa na kome zasnivamo našu pravnu delatnost i prepoznati smo od klijenata po inovativnom pristupu svakom konkretnom problemu.
+        Naša advokatska kancelarija pruža sveobuhvatne pravne usluge kako bi zadovoljila potrebe klijenata iz različitih sektora. 
+        Naš tim stručnjaka nudi profesionalnu pomoć u sledećim oblastima:
         </p>
       </SectionIntro>
       <Container className="mt-16">
