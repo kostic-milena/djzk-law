@@ -58,10 +58,10 @@ const team = [
     title: 'Advokati',
     people: [    
       {
-        name: 'Nenad Đoković',
+        name: 'Nenad S. Đoković',
         role: 'Advokat',
         image: { src: imageDriesVincent },
-        experience: 'Advokat sa više od 15 godina iskustva u oblasti građanskog i imovinskog prava, specijalizovan za rešavanje vlasničkih i imovinskih sporova, kao i pravno savetovanje u vezi sa kupoprodajom nekretnina i zaštitu imovinskih prava fizičkih i pravnih lica. Pravna praksa obuhvata izradu ugovora, zastupanje klijenata u sudskim i van-sudskim postupcima, kao i savetovanje u vezi sa pravima i obavezama u oblasti nekretnina. Stručno vodi klijente kroz sve faze pravnih procesa, pružajući im sigurnost i transparentnost u donošenju ključnih odluka. Diplomirao je na Pravnom fakultetu Univerziteta u Beogradu, a dodatno se usavršavao u oblasti prava nekretnina i rešavanja sporova. Poznat je po strateškom pristupu u rešavanju kompleksnih pravnih pitanja i posvećenosti zaštiti interesa klijenata uz visok nivo profesionalizma.',
+        experience: 'Poznat po temeljnom i analitičnom pristupu svakom pravnom pitanju, bez površnih rešenja i prečica. Ne odustaje lako pred izazovima i posvećen je pronalaženju najboljih pravnih rešenja za klijente, bilo kroz pregovore, izradu precizno formulisanih ugovora ili zastupanju u sudskim i upravnim postupcima. Specijalizovan za građansko pravo, sa posebnim fokusom na stvarno pravo, izradu složenih ugovora i pravnu podršku u procesima građenja. Ima značajno iskustvo u rešavanju složenih imovinskih i ugovornih pitanja, kao i u zastupanju klijenata pred sudovima i drugim nadležnim organima.'
       },
       {
         name: 'Miloš Kostić',
