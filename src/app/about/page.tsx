@@ -61,19 +61,20 @@ const team = [
         name: 'Nenad S. Đoković',
         role: 'Advokat',
         image: { src: imageDriesVincent },
-        experience: 'Poznat po temeljnom i analitičnom pristupu svakom pravnom pitanju, bez površnih rešenja i prečica. Ne odustaje lako pred izazovima i posvećen je pronalaženju najboljih pravnih rešenja za klijente, bilo kroz pregovore, izradu precizno formulisanih ugovora ili zastupanju u sudskim i upravnim postupcima. Specijalizovan za građansko pravo, sa posebnim fokusom na stvarno pravo, izradu složenih ugovora i pravnu podršku u procesima građenja. Ima značajno iskustvo u rešavanju složenih imovinskih i ugovornih pitanja, kao i u zastupanju klijenata pred sudovima i drugim nadležnim organima.'
+        experience_1: 'Poznat po temeljnom i analitičnom pristupu svakom pravnom pitanju, bez površnih rešenja i prečica. Ne odustaje lako pred izazovima i posvećen je pronalaženju najboljih pravnih rešenja za klijente, bilo kroz pregovore, izradu precizno formulisanih ugovora ili zastupanju u sudskim i upravnim postupcima.',
+        experience_2: 'Specijalizovan za građansko pravo, sa posebnim fokusom na stvarno pravo, izradu složenih ugovora i pravnu podršku u procesima građenja. Ima značajno iskustvo u rešavanju složenih imovinskih i ugovornih pitanja, kao i u zastupanju klijenata pred sudovima i drugim nadležnim organima.'
       },
       {
         name: 'Miloš Kostić',
         role: 'Advokat',
         image: { src: imageLeslieAlexander },
-        experience: 'Sa više od 15 godina iskustva u privrednom pravu, specijalizovan za savetovanje kompanija u vezi sa ugovornim odnosima, osnivanjem i restrukturiranjem preduzeća, kao i rešavanjem privrednih sporova. Ima bogato iskustvo u pregovaranju, izradi ugovora i rešavanju poslovnih izazova, sa posebnim fokusom na bankarsko pravo i analizu kreditnih pitanja. Sa Masterom prava (LL.M.) iz međunarodnog prava, stečenim na Pravnom fakultetu Univerziteta u Beogradu, poseduje duboko razumevanje domaćih i međunarodnih pravnih i finansijskih okvira. Saradnja sa domaćim i međunarodnim klijentima omogućila mu je efikasno rešavanje složenih pravnih pitanja u privredi i finansijama, dok učešće na međunarodnim konferencijama kontinuirano unapređuje njegove stručne kompetencije.',
+        experience_1: 'Sa više od 15 godina iskustva u privrednom pravu, specijalizovan za savetovanje kompanija u vezi sa ugovornim odnosima, osnivanjem i restrukturiranjem preduzeća, kao i rešavanjem privrednih sporova. Ima bogato iskustvo u pregovaranju, izradi ugovora i rešavanju poslovnih izazova, sa posebnim fokusom na bankarsko pravo i analizu kreditnih pitanja. Sa Masterom prava (LL.M.) iz međunarodnog prava, stečenim na Pravnom fakultetu Univerziteta u Beogradu, poseduje duboko razumevanje domaćih i međunarodnih pravnih i finansijskih okvira. Saradnja sa domaćim i međunarodnim klijentima omogućila mu je efikasno rešavanje složenih pravnih pitanja u privredi i finansijama, dok učešće na međunarodnim konferencijama kontinuirano unapređuje njegove stručne kompetencije.',
       },
       {
         name: 'Igor Zahirović',
         role: 'Advokat',
         image: { src: imageMichaelFoster },
-        experience: 'Sa više od 15 godina iskustva u radnom pravu, specijalizovan za zastupanje klijenata u radnim sporovima, izradu ugovora o radu, regulisanje prava i obaveza poslodavaca i zaposlenih, kao i prevenciju pravnih rizika. Poseduje iskustvo u kolektivnom pregovaranju, zaštiti prava radnika, kao i usklađivanju sa zakonodavstvom u oblasti zapošljavanja. Posvećen je detaljnoj analizi i strateškom rešavanju problema, pružajući efikasnu pravnu podršku u dinamičnom poslovnom okruženju. Diplomirao je na Pravnom fakultetu Univerziteta u Beogradu, a redovno se usavršava kroz seminare i programe u oblasti radnog prava. Takođe, pruža savete poslodavcima u vezi sa najboljim praksama u upravljanju ljudskim resursima i minimiziranju pravnih rizika.',
+        experience_1: 'Sa više od 15 godina iskustva u radnom pravu, specijalizovan za zastupanje klijenata u radnim sporovima, izradu ugovora o radu, regulisanje prava i obaveza poslodavaca i zaposlenih, kao i prevenciju pravnih rizika. Poseduje iskustvo u kolektivnom pregovaranju, zaštiti prava radnika, kao i usklađivanju sa zakonodavstvom u oblasti zapošljavanja. Posvećen je detaljnoj analizi i strateškom rešavanju problema, pružajući efikasnu pravnu podršku u dinamičnom poslovnom okruženju. Diplomirao je na Pravnom fakultetu Univerziteta u Beogradu, a redovno se usavršava kroz seminare i programe u oblasti radnog prava. Takođe, pruža savete poslodavcima u vezi sa najboljim praksama u upravljanju ljudskim resursima i minimiziranju pravnih rizika.',
       },
     ],
   },
@@ -168,7 +169,9 @@ function Team() {
                                 {person.role}
                               </p>
                               <p className="mt-4 text-sm text-neutral-950">
-                                {person.experience}
+                                {person.experience_1}
+                                <br /><br />
+                                {person.experience_2}
                               </p>
                             
                           </div>
